@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2014-08-09 12:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Plain text
+#, no-wrap
+msgid "[[!meta title=\"Using I2P\"]]\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<div class=\"caution\">\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "<strong>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"There is an critical security hole in I2P, that can lead to full "
+"de-anonymization. [[Do read about it|security/Security_hole_in_I2P_0.9.13]] "
+"before using I2P in Tails 1.1 and earlier."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</strong>\n"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"[I2P](https://geti2p.net/) is an alternative anonymity network to Tor which "
+"supports most common Internet activities like web browsing, email, "
+"filesharing etc. Unlike Tor, whose main focus arguably is on accessing sites "
+"from the \"normal\" Internet, I2P is more oriented towards being a closed "
+"[[!wikipedia darknet]], separate from the \"normal\" Internet. Any one "
+"running I2P can run an anonymous server, a so called Eepsite, that is only "
+"accessible within I2P using the `.i2p` top level domain (similar to `.onion` "
+"for Tor hidden services). For instance, the I2P homepage can also be "
+"accessed through I2P via <http://i2p-projekt.i2p>."
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid ""
+"Starting with Tails 1.1.1, I2P is not enabled by default when Tails "
+"starts.\n"
+"In order to use I2P, add the <span class=\"command\">i2p</span> boot "
+"option\n"
+"to the <span class=\"application\">boot menu</span>. For detailed\n"
+"instructions, see the documentation on [[using the <span\n"
+"class=\"application\">boot\n"
+"menu</span>|first_steps/startup_options#boot_menu]].\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Once enabled at the boot prompt, I2P can be started manually through the "
+"menu:"
+msgstr ""
+
+#. type: Plain text
+#, no-wrap
+msgid "    Applications -> Internet -> i2p\n"
+msgstr ""
+
+#. type: Plain text
+msgid ""
+"Once started, the so called router console will open in Tor Browser, which "
+"shows I2P's current status, links to many useful I2P resources (forums, "
+"email, filesharing etc.) and offers the possibility to shutdown I2P. I2P is "
+"integrated in the browser in such a way that all `.i2p` addresses are "
+"accessed correctly through I2P while all other addresses are handled by Tor, "
+"all at the same time."
+msgstr ""
