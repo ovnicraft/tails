@@ -3,23 +3,23 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2014-08-09 12:29+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Project-Id-Version: Tails 1.1\n"
+"POT-Creation-Date: 2014-08-09 14:08+0000\n"
+"PO-Revision-Date: 2014-08-12 15:02-0000\n"
+"Last-Translator: Tails developers <amnesia@boum.org>\n"
+"Language-Team: spanish lang <tails@boum.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!meta title=\"About\"]]\n"
-msgstr ""
+msgstr "[[!meta title=\"Acerca de\"]]\n"
 
 #. type: Plain text
 #, no-wrap
@@ -27,6 +27,8 @@ msgid ""
 "> **amnesia**, *noun*:<br/>\n"
 "> forgetfulness; loss of long-term memory.\n"
 msgstr ""
+"> **amnesia**, *sustantivo*:<br/>\n"
+"> olvido, pérdida de la memoria de largo plazo.\n"
 
 #. type: Plain text
 #, no-wrap
@@ -34,6 +36,8 @@ msgid ""
 "> **incognito**, *adjective & adverb*:<br/>\n"
 "> (of a person) having one's true identity concealed.\n"
 msgstr ""
+"> **incognito**, *adjetivo, adverbio*:<br/>\n"
+"> (acerca de una persona) conservar escondida la propia identidad.\n"
 
 #. type: Plain text
 msgid ""
@@ -42,14 +46,22 @@ msgid ""
 "anywhere you go and on any computer but leaving no trace unless you ask it "
 "to explicitly."
 msgstr ""
+"Tails es un sistema operativo Live dedicado a preservar tu privacidad y tu "
+"anonimato. Te ayuda a utilizar Internet conservando tu anonimato y esquivar "
+"la censura en casi todos los sitios a los que vas y en cualquier ordenador, "
+"pero no deja huella a menos que tú se lo pidas expresamente."
 
 #. type: Plain text
 msgid ""
 "It is a complete operating system designed to be used from a DVD, USB stick, "
 "or SD card independently of the computer's original operating system. It is "
-"[[Free Software|doc/about/license]] and based on [[Debian "
-"GNU/Linux|https://www.debian.org/]]."
+"[[Free Software|doc/about/license]] and based on [[Debian GNU/Linux|https://"
+"www.debian.org/]]."
 msgstr ""
+"Es un sistema operativo completo diseñado para ser utilizado desde un DVD, "
+"USB stick, o tarjeta SD independientemente del sistema operativo original "
+"del ordenador. Es [[Software libre|doc/about/license]] y está basado en "
+"[[Debian GNU/Linux|https://www.debian.org/]]."
 
 #. type: Plain text
 msgid ""
@@ -57,35 +69,43 @@ msgid ""
 "in mind: web browser, instant messaging client, email client, office suite, "
 "image and sound editor, etc."
 msgstr ""
+"Tails viene con varias aplicaciones preconfiguradas para ser más seguras: "
+"navegador web, cliente de mensajería instantánea, cliente de correo, "
+"programas de oficina, editor de imágenes y video, etc."
 
 #. type: Plain text
 #, no-wrap
 msgid "[[!toc levels=1]]\n"
-msgstr ""
+msgstr "[[!toc levels=1]]\n"
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"tor\"></a>\n"
-msgstr ""
+msgstr "<a id=\"tor\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Online anonymity and censorship circumvention with Tor\n"
-msgstr ""
+msgstr "Anonimato online y esquivar la censura con Tor\n"
 
 #. type: Plain text
-msgid "Tails relies on the Tor anonymity network to protect your privacy online:"
+msgid ""
+"Tails relies on the Tor anonymity network to protect your privacy online:"
 msgstr ""
+"Tails usa la red de anonimización Tor para proteger tu privacidad online:"
 
 #. type: Bullet: '  - '
 msgid "all software is configured to connect to the Internet through Tor"
 msgstr ""
+"todo el software está configurado para conectarse a la red a través de Tor"
 
 #. type: Bullet: '  - '
 msgid ""
 "if an application tries to connect to the Internet directly, the connection "
 "is automatically blocked for security."
 msgstr ""
+"si un programa intenta conectarse a Internet directamente, la connexión es "
+"bloqueada automáticamente por seguridad."
 
 #. type: Plain text
 msgid ""
@@ -94,6 +114,10 @@ msgid ""
 "confidential business activities and relationships, and state security known "
 "as traffic analysis."
 msgstr ""
+"Tor es software libre y una red abierta que te ayuda a defenderte contra una "
+"forma de vigilancia online que amenaza la  libertad y la privacidad de las "
+"personas, las actividades y relaciones comerciales confidenciales y la "
+"seguridad del estado, y que se define como análisis de tráfico."
 
 #. type: Plain text
 msgid ""
@@ -103,68 +127,86 @@ msgid ""
 "visit, and it prevents the sites you visit from learning your physical "
 "location."
 msgstr ""
+"Tor te protege enviarndo tus comunicaciones alrededor del mundo a través de "
+"una red distribuida mantenida por voluntarios de todo el mundo: impide que "
+"alguien que esté vigilando tu red pueda saber qué sitios estás visitando, e "
+"impide que los sitios que visitas puedan saber tu ubicación física."
 
 #. type: Plain text
 msgid "Using Tor you can:"
-msgstr ""
+msgstr "Usando Tor puedes:"
 
 #. type: Bullet: '  - '
 msgid "be anonymous online by hiding your location,"
-msgstr ""
+msgstr "logra anonimato online escondiendo tu ubicación,"
 
 #. type: Bullet: '  - '
 msgid "connect to services that would be censored otherwise;"
-msgstr ""
+msgstr "conéctate a servicios que de otra manera estarían censurados;"
 
 #. type: Bullet: '  - '
 msgid ""
 "resist attacks that block the usage of Tor using circumvention tools such as "
 "[[bridges|doc/first_steps/startup_options/bridge_mode]]."
 msgstr ""
+"resiste ataques que bloquean el uso de Tor utilizando herramientas de "
+"circunvención como los [[puentes|doc/first_steps/startup_options/"
+"bridge_mode]]."
 
 #. type: Plain text
 msgid ""
-"To learn more about Tor, see the official [Tor "
-"website](https://www.torproject.org/):"
+"To learn more about Tor, see the official [Tor website](https://www."
+"torproject.org/):"
 msgstr ""
+"Para aprender más lee la [web oficial de Tor](https://www.torproject.org/):"
 
 #. type: Bullet: '- '
 msgid ""
-"[Tor overview: Why we need "
-"Tor](https://www.torproject.org/about/overview.html.en#whyweneedtor)"
+"[Tor overview: Why we need Tor](https://www.torproject.org/about/overview."
+"html.en#whyweneedtor)"
 msgstr ""
+"[Explicación de Tor: Por qué necesitamos Tor (en inglés)](https://www."
+"torproject.org/about/overview.html.en#whyweneedtor)"
 
 #. type: Bullet: '- '
 msgid ""
-"[Tor overview: How does Tor "
-"work](https://www.torproject.org/about/overview.html.en#thesolution)"
+"[Tor overview: How does Tor work](https://www.torproject.org/about/overview."
+"html.en#thesolution)"
 msgstr ""
+"[Explicación de Tor: Cómo funciona Tor (en inglés)](https://www.torproject."
+"org/about/overview.html.en#thesolution)"
 
 #. type: Bullet: '- '
 msgid "[Who uses Tor?](https://www.torproject.org/about/torusers.html.en)"
 msgstr ""
+"[¿Quién utiliza Tor? (en inglés)](https://www.torproject.org/about/torusers."
+"html.en)"
 
 #. type: Bullet: '- '
 msgid ""
-"[Understanding and Using Tor — An Introduction for the "
-"Layman](https://trac.torproject.org/projects/tor/wiki/doc/TorALaymansGuide)"
+"[Understanding and Using Tor — An Introduction for the Layman](https://trac."
+"torproject.org/projects/tor/wiki/doc/TorALaymansGuide)"
 msgstr ""
+"[ENtendiendo y usando Tor — Una Introducción para las Personas Normales (en "
+"inglés)](https://trac.torproject.org/projects/tor/wiki/doc/TorALaymansGuide)"
 
 #. type: Plain text
 msgid ""
 "To learn more about how the usage of Tor is enforced, see our [[design "
 "document|contribute/design/Tor_enforcement]]."
 msgstr ""
+"Para aprender sobre cómo se fuerza el uso de Tor lee nuestro  [[documento de "
+"diseño|contribute/design/Tor_enforcement]]."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"amnesia\"></a>\n"
-msgstr ""
+msgstr "<a id=\"amnesia\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "Use anywhere but leave no trace\n"
-msgstr ""
+msgstr "Úsalo en todas partes sin dejar huellas\n"
 
 #. type: Plain text
 msgid ""
@@ -173,6 +215,10 @@ msgid ""
 "friend's or one at your local library. After shutting down Tails, the "
 "computer can start again on its usual operating system."
 msgstr ""
+"Cuando usas Tails en un ordenador no alteras ni dependes del sistema "
+"operativo instalado en él. Por eso puedes usarlo en tu ordenador, el de un "
+"amigo o en tu bibioteca local. Después de apagar Tails el ordenador puede "
+"reiniciarse con su sistema operativo habitual."
 
 #. type: Plain text
 msgid ""
@@ -182,6 +228,12 @@ msgid ""
 "down. So you won't leave any trace neither of the Tails system nor of what "
 "you did on the computer. That's why we call it \"amnesic\"."
 msgstr ""
+"Tails está configurado con especial cuidado para no usar los discos duros "
+"del ordenador, incluso aunque haya espacio en ellos. El único espacio de "
+"almacenamiento usado por Tails es la RAM, que se borra automáticamente "
+"cuando el ordenador se apaga. Así que tampoco vas a dejar huellas del "
+"sistema Tails o de lo que has hecho en el ordenador. Por eso lo llamamos "
+"\"amnésico\"."
 
 #. type: Plain text
 msgid ""
@@ -190,115 +242,143 @@ msgid ""
 "save some documents to another USB or external hard-disk and take them away "
 "for future use."
 msgstr ""
+"Esto te permite trabajar en documentos sensibles en cualquier ordenador y "
+"protegerte de que alguien recupere tus datos después de apagar el ordenador. "
+"Aunque por supuesto puedes guardar documentos de manera explícita en otro "
+"USB stick o disco duro externo para usos posteriores."
 
 #. type: Plain text
 #, no-wrap
 msgid "<a id=\"cryptography\"></a>\n"
-msgstr ""
+msgstr "<a id=\"cryptography\"></a>\n"
 
 #. type: Title =
 #, no-wrap
 msgid "State-of-the-art cryptographic tools\n"
-msgstr ""
+msgstr "Las más avanzadas herramientas criptográficas\n"
 
 #. type: Plain text
 msgid ""
 "Tails also comes with a selection of tools to protect your data using strong "
 "encryption:"
 msgstr ""
+"Tails también viene con una selección de herramientas para proteger tus "
+"datos usando encriptación fuerte."
 
 #. type: Bullet: '  - '
 msgid ""
-"[[Encrypt your USB sticks or external "
-"hard-disks|doc/encryption_and_privacy/encrypted_volumes]] using <span "
-"class=\"definition\">[[!wikipedia LUKS]]</span>, the Linux standard for "
-"disk-encryption."
+"[[Encrypt your USB sticks or external hard-disks|doc/encryption_and_privacy/"
+"encrypted_volumes]] using <span class=\"definition\">[[!wikipedia LUKS]]</"
+"span>, the Linux standard for disk-encryption."
 msgstr ""
+"[[Encripta tus USB sticks o discos duros externos|doc/encryption_and_privacy/"
+"encrypted_volumes]] usando <span class=\"definition\">[[!wikipedia LUKS]]</"
+"span>, el standard de ecnriptación de Linux."
 
 #. type: Bullet: '  - '
 msgid ""
 "Automatically encrypt with HTTPS all your communications to a number of "
-"major websites using [HTTPS "
-"Everywhere](https://www.eff.org/https-everywhere), a Firefox extension "
-"developed by the [Electronic Frontier Foundation](https://www.eff.org)."
+"major websites using [HTTPS Everywhere](https://www.eff.org/https-"
+"everywhere), a Firefox extension developed by the [Electronic Frontier "
+"Foundation](https://www.eff.org)."
 msgstr ""
+"Encripta automáticamente con HTTPS todas tus comunicaciones a gran número "
+"de  websites importantes usando [HTTPS Everywhere](https://www.eff.org/https-"
+"everywhere), una extensión de Firefox desarrollada por la [Electronic "
+"Frontier Foundation](https://www.eff.org)."
 
 #. type: Bullet: '  - '
 msgid ""
 "Encrypt and sign your emails and documents using the *de facto* standard "
 "<span class=\"definition\">[[!wikipedia OpenPGP]]</span> either from Tails "
 "email client, text editor or file browser."
-msgstr ""
+msgstr "Encripta y firma tus emails y documentos"
 
 #. type: Bullet: '  - '
 msgid ""
-"Protect your instant messaging conversations using <span "
-"class=\"definition\">[[!wikipedia Off-the-Record_Messaging "
-"desc=\"OTR\"]]</span>, a cryptographic tool that provides encryption, "
-"authentication and deniability."
+"Protect your instant messaging conversations using <span class=\"definition"
+"\">[[!wikipedia Off-the-Record_Messaging desc=\"OTR\"]]</span>, a "
+"cryptographic tool that provides encryption, authentication and deniability."
 msgstr ""
+"Protege tus conversaciones instantáneas utilizando <span class=\"definition"
+"\">[[!wikipedia Off-the-Record_Messaging desc=\"OTR\"]]</span>, una "
+"herramienta cryptográfica que provee de encriptación, autentificación y "
+"'deniability' (negación)."
 
 #. type: Bullet: '  - '
 msgid ""
 "[[Securely delete your files|doc/encryption_and_privacy/secure_deletion]] "
-"and clean your diskspace using [[Nautilus "
-"Wipe|http://wipetools.tuxfamily.org/nautilus-wipe.html]]."
+"and clean your diskspace using [[Nautilus Wipe|http://wipetools.tuxfamily."
+"org/nautilus-wipe.html]]."
 msgstr ""
+"[[Borra tus archivos con seguridad|doc/encryption_and_privacy/"
+"secure_deletion]] y limpia el espacio de tu disco con [[Nautilus Wipe|http://"
+"wipetools.tuxfamily.org/nautilus-wipe.html]]."
 
 #. type: Plain text
 msgid ""
-"[[Read more about those tools in the "
-"documentation.|doc/encryption_and_privacy]]"
+"[[Read more about those tools in the documentation.|doc/"
+"encryption_and_privacy]]"
 msgstr ""
+"[[Lee más sobre estas herramientas en la documentación.|doc/"
+"encryption_and_privacy]]"
 
 #. type: Title =
 #, no-wrap
 msgid "What's next?\n"
-msgstr ""
+msgstr "¿Qué se viene?\n"
 
 #. type: Plain text
 msgid "To continue discovering Tails, you can now read:"
-msgstr ""
+msgstr "Para seguir descubriendo Tails, puedes leer:"
 
 #. type: Bullet: '  - '
 msgid ""
 "the [[warning page|doc/about/warning]] to understand better the security "
 "limitations of Tails and Tor,"
 msgstr ""
+"la [[página de advertencias|doc/about/warning]] para comprender mejor las "
+"limitaciones de seguridad de Tails y Tor,"
 
 #. type: Bullet: '  - '
 msgid ""
 "more details about the [[features and software|doc/about/features]] included "
 "in Tails,"
 msgstr ""
+"Más detalles sobre las [[funcionalidades y el software|doc/about/features]] "
+"incluidos en Tails"
 
 #. type: Bullet: '  - '
 msgid "our [[documentation|doc]] explaining in detail how to use Tails,"
-msgstr ""
+msgstr "nuestra [[documentación|doc]] que explica en detalle cómo usar Tails,"
 
 #. type: Bullet: '  - '
 msgid "some hints on why [[should you trust Tails|doc/about/trust]],"
 msgstr ""
+"algunos consejos sobre por qué [[deberías confiar en Tails|doc/about/trust]],"
 
 #. type: Bullet: '  - '
 msgid ""
 "our [[design document|contribute/design]] about Tails specification, threat "
 "model and implementation."
 msgstr ""
+"nuestro [[documento de diseño|contribute/design]] acerca de las "
+"especificaciones de Tails, el modelo de amenazas (threat model) y la "
+"implementación"
 
 #. type: Title =
 #, no-wrap
 msgid "Press and media\n"
-msgstr ""
+msgstr "Prensa y medios\n"
 
 #. type: Plain text
 msgid "See the [[Press and media information|press]]."
-msgstr ""
+msgstr "Lee en [[Prensa e información de medios de comunicación|press]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Acknowledgements\n"
-msgstr ""
+msgstr "Agradecimientos\n"
 
 #. type: Bullet: '  - '
 msgid ""
@@ -306,20 +386,30 @@ msgid ""
 "Live|http://live.debian.net]], and [[Tor|https://www.torproject.org/]]; see "
 "our [[contribute/relationship with upstream]] document for details."
 msgstr ""
+"Tails no podría existir sin [[Debian|https://www.debian.org/]], [[Debian "
+"Live|http://live.debian.net]], o [[Tor|https://www.torproject.org/]]; lee "
+"nuestro documento [[relación con upstream|contribute/relationship with "
+"upstream]] para detalles."
 
 #. type: Bullet: '  - '
 msgid ""
-"Tails was inspired by the [[Incognito "
-"LiveCD|http://web.archive.org/web/20090220133020/http://anonymityanywhere.com/]]. "
-"The Incognito author declared it to be dead on March 23rd, 2010, and wrote "
-"that Tails \"should be considered as its spiritual successor\"."
+"Tails was inspired by the [[Incognito LiveCD|http://web.archive.org/"
+"web/20090220133020/http://anonymityanywhere.com/]]. The Incognito author "
+"declared it to be dead on March 23rd, 2010, and wrote that Tails \"should be "
+"considered as its spiritual successor\"."
 msgstr ""
+"Tails fue inspirado por el [[Incognito LiveCD|http://web.archive.org/"
+"web/20090220133020/http://anonymityanywhere.com/]]. El autor de Incognito "
+"declaró el proyecto muerto el 23 de marzo de 2010, y escribió que Tails "
+"\"debería considerarse su sucesor espiritual\"."
 
 #. type: Bullet: '  - '
 msgid ""
 "The [[Privatix Live-System|http://mandalka.name/privatix/]] an early source "
 "of inspiration, too."
 msgstr ""
+"El [[Live-System Privatix|http://mandalka.name/privatix/]] también ha sido "
+"una fuente temprana de inspiración."
 
 #. type: Bullet: '  - '
 msgid ""
@@ -327,116 +417,129 @@ msgid ""
 "improvements to our [[contribute/design/memory_erasure]] procedure) were "
 "borrowed from [Liberté Linux](http://dee.su/liberte)."
 msgstr ""
+"Algunas ideas (en particular [[tordate|contribute/design/Time_syncing]] y "
+"mejoras en nuestra operación de [[borrado de memoria|contribute/design/"
+"memory_erasure]]) se tomaron de [Liberté Linux](http://dee.su/liberte)."
 
 #. type: Bullet: '  - '
 msgid ""
-"Portions of Tails are based on TrueCrypt, freely available at "
-"[[http://www.truecrypt.org/]]."
+"Portions of Tails are based on TrueCrypt, freely available at [[http://www."
+"truecrypt.org/]]."
 msgstr ""
+"Partes de Tails están basadas en TrueCrypt, disponible libremente en "
+"[[http://www.truecrypt.org/]]."
 
 #. type: Title =
 #, no-wrap
 msgid "Related projects\n"
-msgstr ""
+msgstr "Proyectos relacionados\n"
 
 #. type: Plain text
 msgid ""
 "Feel free to contact us if you think that your project is missing, or if "
 "some project is listed in the wrong category."
 msgstr ""
+"No dudes en contactarnos si piensas que tu proyecto debería estar en la "
+"lista, o si algún proyecto está listado en la categoría equivocada."
 
 #. type: Title ##
 #, no-wrap
 msgid "Active projects"
-msgstr ""
+msgstr "Proyectos activos"
 
 #. type: Bullet: '* '
 msgid "[SubgraphOS](https://subgraph.com/sgos/)"
-msgstr ""
+msgstr "[SubgraphOS](https://subgraph.com/sgos/)"
 
 #. type: Bullet: '* '
 msgid "[Freepto](http://www.freepto.mx/)"
-msgstr ""
+msgstr "[Freepto](http://www.freepto.mx/)"
 
 #. type: Bullet: '* '
 msgid "[IprediaOS](http://www.ipredia.org/)"
-msgstr ""
+msgstr "[IprediaOS](http://www.ipredia.org/)"
 
 #. type: Bullet: '* '
-msgid "[JonDo Live-CD](https://anonymous-proxy-servers.net/en/jondo-live-cd.html)"
+msgid ""
+"[JonDo Live-CD](https://anonymous-proxy-servers.net/en/jondo-live-cd.html)"
 msgstr ""
+"[JonDo Live-CD](https://anonymous-proxy-servers.net/en/jondo-live-cd.html)"
 
 #. type: Bullet: '* '
 msgid "[Lightweight Portable Security](http://www.spi.dod.mil/lipose.htm)"
-msgstr ""
+msgstr "[Lightweight Portable Security](http://www.spi.dod.mil/lipose.htm)"
 
 #. type: Bullet: '* '
 msgid "[Whonix](https://www.whonix.org/)"
-msgstr ""
+msgstr "[Whonix](https://www.whonix.org/)"
 
 #. type: Title ##
 #, no-wrap
 msgid "Discontinued, abandoned or sleeping projects"
-msgstr ""
+msgstr "Proyectos parados, abandonados o inactivos."
 
 #. type: Bullet: '* '
 msgid "[Anonym.OS](http://sourceforge.net/projects/anonym-os/)"
-msgstr ""
+msgstr "[Anonym.OS](http://sourceforge.net/projects/anonym-os/)"
 
 #. type: Bullet: '* '
 msgid "[ISXUbuntu](http://www.isoc-ny.org/wiki/ISXubuntu)"
-msgstr ""
+msgstr "[ISXUbuntu](http://www.isoc-ny.org/wiki/ISXubuntu)"
 
 #. type: Bullet: '* '
 msgid "[ELE](http://www.northernsecurity.net/download/ele/) (dead link)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[Estrella Roja](http://distrowatch.com/table.php?distribution=estrellaroja)"
-msgstr ""
-
-#. type: Bullet: '* '
-msgid "[The Haven Project](https://www.haven-project.org/) (dead link)"
-msgstr ""
+msgstr "[ELE](http://www.northernsecurity.net/download/ele/) (dead link)"
 
 #. type: Bullet: '* '
 msgid ""
-"[The Incognito "
-"LiveCD](http://web.archive.org/web/20090220133020/http://anonymityanywhere.com/)"
+"[Estrella Roja](http://distrowatch.com/table.php?distribution=estrellaroja)"
 msgstr ""
+"[Estrella Roja](http://distrowatch.com/table.php?distribution=estrellaroja)"
+
+#. type: Bullet: '* '
+msgid "[The Haven Project](https://www.haven-project.org/) (dead link)"
+msgstr "[The Haven Project](https://www.haven-project.org/) (dead link)"
+
+#. type: Bullet: '* '
+msgid ""
+"[The Incognito LiveCD](http://web.archive.org/web/20090220133020/http://"
+"anonymityanywhere.com/)"
+msgstr ""
+"[The Incognito LiveCD](http://web.archive.org/web/20090220133020/http://"
+"anonymityanywhere.com/)"
 
 #. type: Bullet: '* '
 msgid "[Liberté Linux](http://dee.su/liberte)"
-msgstr ""
+msgstr "[Liberté Linux](http://dee.su/liberte)"
 
 #. type: Bullet: '* '
 msgid "[Odebian](http://www.odebian.org/)"
-msgstr ""
+msgstr "[Odebian](http://www.odebian.org/)"
 
 #. type: Bullet: '* '
 msgid "[onionOS](http://jamon.name/files/onionOS/) (dead link)"
-msgstr ""
+msgstr "[onionOS](http://jamon.name/files/onionOS/) (dead link)"
 
 #. type: Bullet: '* '
 msgid "[ParanoidLinux](http://www.paranoidlinux.org/) (dead link)"
-msgstr ""
+msgstr "[ParanoidLinux](http://www.paranoidlinux.org/) (dead link)"
 
 #. type: Bullet: '* '
 msgid "[Phantomix](http://phantomix.ytternhagen.de/)"
-msgstr ""
+msgstr "[Phantomix](http://phantomix.ytternhagen.de/)"
 
 #. type: Bullet: '* '
 msgid "[Polippix](http://polippix.org/)"
-msgstr ""
+msgstr "[Polippix](http://polippix.org/)"
 
 #. type: Bullet: '* '
 msgid "[Privatix](http://www.mandalka.name/privatix/)"
-msgstr ""
+msgstr "[Privatix](http://www.mandalka.name/privatix/)"
 
 #. type: Bullet: '* '
 msgid "[Ubuntu Privacy Remix](https://www.privacy-cd.org/)"
-msgstr ""
+msgstr "[Ubuntu Privacy Remix](https://www.privacy-cd.org/)"
 
 #. type: Bullet: '* '
 msgid "[uVirtus](http://uvirtus.org/)"
-msgstr ""
+msgstr "[uVirtus](http://uvirtus.org/)"
