@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ikiwiki\n"
 "POT-Creation-Date: 2014-08-09 12:29+0000\n"
-"PO-Revision-Date: 2009-08-16 21:03+0200\n"
+"PO-Revision-Date: 2014-09-01 08:52-0500\n"
 "Last-Translator: Fernando González de Requena <fgrequena@gmail.com>\n"
 "Language-Team: None\n"
 "Language: \n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Content of: outside any tag (error?)
 msgid "[[!meta title=\"Privacy for anyone anywhere\"]]"
-msgstr ""
+msgstr "[[!meta title=\"Privacidad para todos en todo lugar\"]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
@@ -27,52 +27,64 @@ msgid ""
 "at preserving your <strong>privacy</strong> and <strong>anonymity</strong>, "
 "and helps you to:"
 msgstr ""
+"Tails es un [[!wikipedia desc=\"Sistema Operativo Vivo Live_USB\"]], que puede arrancar\n"
+"en casi todos los computadores desde un DVD, memoria USB o tarjeta SD. Pretende\n"
+"preservar <strong>privacidad</strong> y <strong>anonimato</strong>,\n"
+"y te ayuda a:"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>use the Internet anonymously</strong> and <strong>circumvent "
 "censorship</strong>;"
-msgstr ""
+msgstr "<strong>Usar internet anonimante</strong> y <strong>evitar la censura</strong>;"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "all connections to the Internet are forced to go through [[the Tor network|"
 "https://www.torproject.org/]];"
 msgstr ""
+"todas las conexiones a internet son forzadas a traves de [[la red Tor|\n"
+"https://www.torproject.org]]"
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>leave no trace</strong> on the computer you are using unless you ask "
 "it explicitly;"
 msgstr ""
+"<strong>no dejar rastro</strong> en el computador que estas usando, a menos \n"
+"que lo hagas explicitamente."
 
 #. type: Content of: <div><div><ul><li>
 msgid ""
 "<strong>use state-of-the-art cryptographic tools</strong> to encrypt your "
 "files, emails and instant messaging."
 msgstr ""
+"<strong>usar las herramientas criptográficas de última generación</strong> para cifrar\n"
+"archivos, correo electrónico y mensajería instantánea."
 
 #. type: Content of: <div><div><p>
 msgid "[[Learn more about Tails.|about]]"
-msgstr ""
+msgstr "[[Aprende más acerca de Tails.|about]]"
 
 #. type: Content of: <div><div><h1>
 msgid "News"
-msgstr ""
+msgstr "Noticias"
 
 #. type: Content of: <div><div>
 msgid ""
 "[[!inline pages=\"news/* and !news/*/* and !news/discussion and currentlang"
 "()\" show=\"2\" feeds=\"no\" archive=\"yes\"]]"
 msgstr ""
+"[[!inline pages=\"news/* and !news/*/* and !news/discussion and currentlang\"\n"
+"() show=\"2\" feeds=\"no\" archive=\"yes\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "See [[News]] for more."
-msgstr ""
+msgstr "Ver [[News]] para más."
 
 #. type: Content of: <div><div><h1>
 msgid "Security"
-msgstr ""
+msgstr "Seguridad"
 
 #. type: Content of: <div><div>
 msgid ""
@@ -80,35 +92,38 @@ msgid ""
 "and !security/audits/* and !security/*/* and !security/discussion and "
 "currentlang()\" show=\"2\" feeds=\"no\" archive=\"yes\"]]"
 msgstr ""
+"[[!inline pages=\"security/*\" and !security/audits and !security/audits.* \n"
+"and !security/audits/* and !security/*/* and !security/discussion and \n"
+"currentlang() show=\"2\" feeds=\"no\" archive=\"yes\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "See [[Security]] for more."
-msgstr ""
+msgstr "Ver [[Seguridad]] para más."
 
 #. type: Content of: <div><div>
 msgid "[[!img lib/debian.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img lib/debian.png link=\"no\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Tails is built upon <a href=\"https://debian.org/\">Debian</a>."
-msgstr ""
+msgstr "Tails está construido sobre <a href=\"https://debian.org\">Debian</a>."
 
 #. type: Content of: <div><div>
 msgid "[[!img lib/free-software.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img lib/free-software.png link=\"no\"]]"
 
 #. type: Content of: <div><div><p>
 msgid "Tails is [[Free Software|doc/about/license]]."
-msgstr ""
+msgstr "Tails es [[Software Libre|doc|about|license]]."
 
 #. type: Content of: <div><div>
 msgid "[[!img lib/tor.png link=\"no\"]]"
-msgstr ""
+msgstr "[[!img lib/tor.png link=\"no\"]]"
 
 #. type: Content of: <div><div><p>
 msgid ""
 "Tails sends its traffic through <a href=\"https://torproject.org/\">Tor</a>."
-msgstr ""
+msgstr "Tails envía su tráfico a través de <a href=\"https://torproject.org\">Tor</a>."
 
 #~ msgid "Welcome to your new wiki."
 #~ msgstr "Bienvenido a su nuevo wiki."
